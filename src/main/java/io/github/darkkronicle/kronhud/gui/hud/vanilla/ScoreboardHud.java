@@ -212,7 +212,7 @@ public class ScoreboardHud extends TextHudEntry implements DynamicallyPositionab
     @Override
     public List<KronConfig<?>> getConfigurationOptions() {
         List<KronConfig<?>> options = super.getConfigurationOptions();;
-        options.add(backgroundColor);
+        options.set(3,backgroundColor);//just a workaround
         options.add(topColor);
         options.add(scores);
         options.add(scoreColor);
