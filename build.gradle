@@ -4,7 +4,7 @@ plugins {
     id "io.freefair.lombok" version "6.1.0-m2"
 }
 
-apply from: 'https://raw.githubusercontent.com/DarkKronicle/GradleScripts/main/gradle/publish.gradle'
+apply from: 'https://cdn.jsdelivr.net/gh/DarkKronicle/GradleScripts@main/gradle/publish.gradle'
 
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
